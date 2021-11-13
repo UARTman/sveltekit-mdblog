@@ -9,9 +9,8 @@ As a programmer, making your own site/blog/resume is something I always wanted t
   - [ ] Metadata
     - [x] Back-end support
     - [ ] Displaying it in front-end 
-
-- [ ] Blogpost listing system
+- [x] Blogpost listing system
   - [x] JSON endpoint
-  - [ ] Svelte page
+  - [x] Svelte page
 - [ ] Main page
 - [ ] Custom dark-mode monospace terminal stylesheet

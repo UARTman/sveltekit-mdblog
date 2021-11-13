@@ -1,0 +1,82 @@
+h1::before {
+	content: '# ';
+}
+
+h2::before {
+	content: '## ';
+}
+
+h3::before {
+	content: '### ';
+}
+
+h4::before {
+	content: '#### ';
+}
+
+h5::before {
+	content: '##### ';
+}
+
+h6::before {
+	content: '###### ';
+}
+pre {
+	/* background-color: grey; */
+	border: solid black;
+	border-radius: 10px;
+	border-width: 1px;
+	padding: 10px;
+	/* padding-bottom: 0px; */
+	width: fit-content;
+	/* inner-margin: 10px; */
+}
+
+code {
+	height: fit-content;
+}
+
+.katex-display {
+	width: fit-content;
+	padding: 10px;
+	border-radius: 10px;
+    border: solid black 1px;
+}
+
+* {
+	font-family: "Fira Code"
+}
+
+@font-face {
+	font-family: "Fira Code";
+	src: url('/FiraCode.ttf');
+}
+
+table {
+	border-collapse: collapse;
+	/* border-top: dashed black 2px; */
+}
+
+tbody {
+	border-top: dashed black 2px;
+	/* border-bottom: dashed black 2px; */
+}
+
+td {
+	border: black solid 1px;
+}
+
+th {
+	border-left: black solid 2px;
+	border-right: black solid 2px;
+	border-top: black solid 2px;
+}
+
+code {
+	border-radius: 2px;
+	background: lightgray
+}
+
+pre > code {
+	background: transparent;
+}

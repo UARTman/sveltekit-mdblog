@@ -2,12 +2,15 @@ lockfileVersion: 5.3
 
 specifiers:
   '@sveltejs/kit': next
+  '@types/highlightjs': ^9.12.2
   '@types/markdown-it': ^12.2.3
   '@typescript-eslint/eslint-plugin': ^4.31.1
   '@typescript-eslint/parser': ^4.31.1
   eslint: ^7.32.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-svelte3: ^3.2.1
+  highlight.js: ^11.3.1
+  hljs: ^6.2.3
   markdown-it: ^12.2.0
   markdown-it-abbr: ^1.0.4
   markdown-it-footnote: ^3.0.3
@@ -24,7 +27,10 @@ specifiers:
   yaml: ^1.10.2
 
 dependencies:
+  '@types/highlightjs': 9.12.2
   '@types/markdown-it': 12.2.3
+  highlight.js: 11.3.1
+  hljs: 6.2.3
   markdown-it: 12.2.0
   markdown-it-abbr: 1.0.4
   markdown-it-footnote: 3.0.3
@@ -173,6 +179,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@types/highlightjs/9.12.2:
+    resolution: {integrity: sha512-oW2pEKwshxwBW1nVUizWQg/tnhboRtKrUKnF2hd6l4BZ0shr5ZjQ4ra/82+NEH6uWeM8JjrMGCux5enQXOQbTA==}
+    dev: false
 
   /@types/json-schema/7.0.9:
     resolution: {integrity: sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==}
@@ -1006,6 +1016,15 @@ packages:
     dependencies:
       function-bind: 1.1.1
     dev: true
+
+  /highlight.js/11.3.1:
+    resolution: {integrity: sha512-PUhCRnPjLtiLHZAQ5A/Dt5F8cWZeMyj9KRsACsWT+OD6OP0x6dp5OmT5jdx0JgEyPxPZZIPQpRN2TciUT7occw==}
+    engines: {node: '>=12.0.0'}
+    dev: false
+
+  /hljs/6.2.3:
+    resolution: {integrity: sha1-1NYgj6KoTylJVrxQ8sgS6cvUm8w=}
+    dev: false
 
   /ignore/4.0.6:
     resolution: {integrity: sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==}

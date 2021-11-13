@@ -20,6 +20,7 @@
 </script>
 
 <script type="ts">
+    import "./markdown.css";
     export let article: {content: string, meta: any};
 </script>
 
